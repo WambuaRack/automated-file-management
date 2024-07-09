@@ -47,6 +47,7 @@ read_csv_button.pack(pady=10)
 scrape_frame = tk.Frame(app)
 scrape_frame.pack(pady=10)
 
+
 url_label = tk.Label(scrape_frame, text="Enter your  URL:")
 url_label.grid(row=0, column=0)
 
